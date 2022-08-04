@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.chart{
+    width: 400PX;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-right: 27px;
+    font-size: medium;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
